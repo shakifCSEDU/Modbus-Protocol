@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: sakif sahriar, csedu, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\Materials\Thesis\29 Aug 2023\master\master.uvprojx
+Project File Date:  08/29/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(7): warning: In file included from...
+./modbus.h(2): warning: In file included from...
+./rs485_config.h(5): warning: no newline at end of file [-Wnewline-eof]
+void rs485_tx_disable(void);
+                            ^
+main.c(7): warning: In file included from...
+./modbus.h(28): warning: expected ';' at end of declaration list
+        uint8_t crc_hi
+                      ^
+                      ;
+./modbus.h(44): warning: no newline at end of file [-Wnewline-eof]
+void send_pkt(struct modbus pkt);
+                                 ^
+main.c(8): warning: In file included from...
+./rs485_config.h(5): warning: no newline at end of file [-Wnewline-eof]
+void rs485_tx_disable(void);
+                            ^
+main.c(303): warning: result of comparison against a string literal is unspecified (use an explicit string comparison function instead) [-Wstring-compare]
+        while(cnt != 20 && c != '\n' && c != ".") {
+                                          ^  ~~~
+main.c(303): warning: comparison between pointer and integer ('uint8_t' (aka 'unsigned char') and 'char *') [-Wpointer-integer-compare]
+        while(cnt != 20 && c != '\n' && c != ".") {
+                                        ~ ^  ~~~
+main.c(321): warning: unused variable 'c' [-Wunused-variable]
+                        uint8_t c = (uint8_t)USART6->DR;
+                                ^
+main.c(24): warning: unused variable 'pkt1_ptr' [-Wunused-variable]
+static uint8_t* pkt1_ptr = (uint8_t*)&pkt1;
+                ^
+main.c(29): warning: unused variable 'response_received' [-Wunused-variable]
+static uint8_t response_received = 0;
+               ^
+main.c(30): warning: unused variable 'response_timeout' [-Wunused-variable]
+static uint8_t response_timeout = 0;
+               ^
+10 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=2820 RO-data=1564 RW-data=8 ZI-data=1872  
+".\Objects\master.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\88018\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Users\88018\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+      Source file:   MDK\Device\Source\ARM\STM32F446xx_OPT.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f446xx.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

@@ -1,0 +1,567 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: sakif sahriar, csedu, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\Materials\Thesis\29 Aug 2023\slave\slave.uvprojx
+Project File Date:  08/29/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(4): warning: In file included from...
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                            ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                                        ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                                                    ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                                                                ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                            ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                                        ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                                                    ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                                                                ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                            ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                                        ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                                                    ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                                                                ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                            ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                                        ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                                                    ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                                                                ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                            ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                                        ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                                                    ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                                                                ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                            ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                                        ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                                                    ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                                                                ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                            ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                                        ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                                                    ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                                                                ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                            ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                                        ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                                                    ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                                                                ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                            ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                                        ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                                                    ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                                                                ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                            ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                                        ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                                                    ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                                                                ^
+main.c(27): warning: unused variable 'tmp' [-Wunused-variable]
+        uint8_t tmp = 0xFF & USART6->DR;
+                ^
+51 warnings generated.
+compiling main.c...
+modbus.c(1): warning: In file included from...
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                            ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                                        ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                                                    ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                                                                ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                            ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                                        ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                                                    ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                                                                ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                            ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                                        ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                                                    ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                                                                ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                            ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                                        ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                                                    ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                                                                ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                            ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                                        ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                                                    ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                                                                ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                            ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                                        ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                                                    ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                                                                ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                            ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                                        ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                                                    ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                                                                ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                            ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                                        ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                                                    ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                                                                ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                            ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                                        ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                                                    ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                                                                ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                            ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                                        ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                                                    ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                                                                ^
+modbus.c(34): warning: unused variable 'tmp' [-Wunused-variable]
+        uint8_t tmp = USART6->DR & 0xFF;
+                ^
+modbus.c(143): warning: '/*' within block comment [-Wcomment]
+        /* The approach is simple. We will read 1 bit at a time and store them in the Txdata buffer.
+        ^
+modbus.c(210): warning: '/*' within block comment [-Wcomment]
+        /* The approach is simple. We will read 1 bit at a time and store them in the Txdata buffer.
+        ^
+modbus.c(319): warning: '/*' within block comment [-Wcomment]
+        /* Calculation for the bit in the database, where the modification will be done */
+        ^
+modbus.c(323): warning: '/*' within block comment [-Wcomment]
+/* The next 2 bytes in the RxData determines the state of the coil
+^
+modbus.c(367): warning: '/*' within block comment [-Wcomment]
+        /*
+        ^
+modbus.c(60): warning: unused variable 'endAddr' [-Wunused-variable]
+        uint16_t endAddr = startAddr+numRegs-1;  // end Register
+                 ^
+modbus.c(75): warning: unused variable 'indx' [-Wunused-variable]
+ int indx = 3;  // we need to keep track of how many bytes has been stored in TxData Buffer
+     ^
+modbus.c(4): warning: no previous extern declaration for non-static variable 'Tx' [-Wmissing-variable-declarations]
+uint8_t Tx[100];
+        ^
+modbus.c(4): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t Tx[100];
+^
+59 warnings generated.
+compiling modbus.c...
+uart.c(4): warning: In file included from...
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                            ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                                        ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                                                    ^
+./modbus.h(50): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    1-40
+                                                                ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                            ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                                        ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                                                    ^
+./modbus.h(51): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   41-80
+                                                                ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                            ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                                        ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                                                    ^
+./modbus.h(52): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  81-120
+                                                                ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                            ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                                        ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                                                    ^
+./modbus.h(53): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 121-160
+                                                                ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                            ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                                        ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                                                    ^
+./modbus.h(54): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 161-200
+                                                                ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                            ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                                        ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                                                    ^
+./modbus.h(57): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01001001, 0b10011100, 0b10101010, 0b01010101, 0b11001100,    // 0-39    10001-10040
+                                                                ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                            ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                                        ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                                                    ^
+./modbus.h(58): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b10100011, 0b01100110, 0b10101111, 0b01100000, 0b10111100,    // 40-79   10041-10080
+                                                                ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                            ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                                        ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                                                    ^
+./modbus.h(59): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b11001100, 0b01101100, 0b01010011, 0b11111111, 0b00000000,    // 80-119  10081-10120
+                                                                ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                            ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                                        ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                                                    ^
+./modbus.h(60): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010101, 0b00111100, 0b00001111, 0b11110000, 0b10001111,    // 120-159 10121-10160
+                                                                ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                            ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                                        ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                                                    ^
+./modbus.h(61): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                0b01010100, 0b10011001, 0b11111000, 0b00001101, 0b00101010,    // 160-199 10161-10200
+                                                                ^
+uart.c(128): warning: unused variable 'tmp' [-Wunused-variable]
+        uint8_t tmp = USART6->DR & 0xFF;
+                ^
+uart.c(236): warning: unused variable 'tmp' [-Wunused-variable]
+                uint8_t tmp = (USART6->DR & 0xFF);
+                        ^
+uart.c(8): warning: unused variable 'pkt_size' [-Wunused-variable]
+static uint32_t pkt_size = sizeof(packet);
+                ^
+53 warnings generated.
+compiling uart.c...
+linking...
+Program Size: Code=2020 RO-data=520 RW-data=8 ZI-data=1872  
+".\Objects\slave.axf" - 0 Error(s), 163 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\88018\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Users\88018\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f446xx.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F446xx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
